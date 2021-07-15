@@ -3,6 +3,7 @@
 Landing page de black friday de um e-commerce de cursos de tecnologia.
 
 <hr>
+
 Entrega:
 * Site Oficial / Landing page  
 
