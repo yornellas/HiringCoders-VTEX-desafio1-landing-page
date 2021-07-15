@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Landing page da Black Friday na TechCursos e-commerce">
+    <meta name="author" content="Yolanda Ornellas">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+
+    <title>Black Friday TechCursos</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img class="logo" src="/img/logo1.png" alt="logotipo da TechCursos" width="120px">
+        </div>
+    </header>
+
+    <section>
+        <div class="section-container">
+            <img class="section-main-img" src="/img/bf-gif.gif" alt="" width="500px">
+        </div>
+    </section>
+
+    <aside id="aside-left">
+        <div class="card-extra-container">
+            <h1 class="title">Fique ligado! Cursos exclusivos a preço de banana <img src="/img/icons/32px/banana-32.png" alt="ícone banana"></h1>
+            <p class="text">
+                Até que enfim! Chegaram os descontos mais esperados do ano! Você pode aprender com os melhores especialistas, no seu tempo e pelo melhor preço.
+            </p>
+            <div class="icons">
+                <img src="/img/icons/32px/html-5 (2).png" alt="ícone HTML">
+                <img src="/img/icons/32px/css (2).png" alt="ícone CSS">
+                <img src="/img/icons/32px/javascript (2).png" alt="ícone JavaScript">
+                <img src="/img/icons/32px/atom (2).png" alt="ícone React">
+            </div>
+        </div>
+    </aside>
+
+    <aside id="aside-right">
+        <div class="card-main-container">
+            <h2 class="title">Escolha entre nossos cursos mais concorridos. O mais votado terá um desconto de 80% <img src="/img/icons/32px/surprised-32.png" alt="ícone emoji surpreso"></h2>
+            <form class="radio-options">
+                <label for="react">
+                    <input checked="checked" type="radio" name="option" id="react" value="react">
+                    Desvendando o React
+                </label>
+                <label for="html-css">
+                    <input type="radio" name="option" id="html-css" value="html-css">
+                    HTML e CSS completos
+                </label>
+                <label for="javascript">
+                    <input type="radio" name="option" id="javascript" value="javascript">
+                    JavaScript do Básico ao Avançado
+                </label>
+                <label for="css">
+                    <input type="radio" name="option" id="css" value="css">
+                    Tudo o que você precisa saber sobre CSS
+                </label>
+            </form>
+            <h1 class="text">E as ofertas não acabam por aí. Cadastre seu e-mail e não perca!</h1>
+            <div id="submit-form">
+                <form class="email-submit">
+                    <input type="text" id="name" placeholder="Seu Nome"> 
+                    <input type="email" name="email" id="email" placeholder="seuemail@email.com.br">
+                    <input type="submit" id="button" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </aside>
+
+    <footer>
+        <div class="footer-container">
+            <p>Desenvolvido por @<a href="https://www.linkedin.com/in/yolandaornellas/" target="_blank">Yolanda Ornellas</a></p>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

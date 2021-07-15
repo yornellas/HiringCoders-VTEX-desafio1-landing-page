@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(56, 47, 96, 0.96) ;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header .header-container {
+    background-color: #382F60;
+
+    display: flex;
+    justify-content: center;
+}
+
+section .section-container {
+    background-color: #57385C;
+}
+
+    .section-container .section-main-img {
+        margin-left: 13rem;
+    }
+
+aside .card-main-container {
+    background-color: rgb(72, 81, 136, 0.85);
+    width: 23.5rem;
+    height: 38rem;
+    box-shadow: .2rem .2rem black;
+
+    position: absolute;
+    bottom: 5rem;
+    left: 55rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+aside .card-main-container:hover {
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);
+
+}
+
+        aside .card-main-container .title {
+            color: #FECA28;
+            padding: 0 1.5rem;
+            margin-top: 1.5rem;
+            text-align: center;
+        }
+
+        aside .card-main-container .radio-options {
+            color: #FF9F68;
+            padding: 0 3rem;
+            margin-top: 2rem;
+            height: 8rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        aside .card-main-container .text {
+            color: #FECA28;
+            padding: 0 2rem;
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+        aside .card-main-container .email-submit {
+            color: #FECA28;
+
+            padding: 0 2rem 1.5rem;
+            border-radius: .5rem;
+
+            display: flex;
+            flex-direction: column;
+        }
+
+        aside .card-main-container .email-submit #text {
+            margin-bottom: .5rem;
+            height: 1.5rem;
+        }
+
+        aside .card-main-container .email-submit #email {
+            margin-bottom: .7rem;
+            height: 1.5rem;
+        }
+
+        aside .card-main-container .email-submit #button {
+            background-color: #FECA28;
+            margin: auto;
+            padding: .5rem 1rem;
+            width: 6rem;
+            border-radius: .5rem;
+        }
+
+        aside .card-main-container .email-submit #button:hover {
+            background-color: #FF9F68;
+        }
+
+
+aside .card-extra-container {
+    background-color: rgb(72, 81, 136, 0.30);
+    color: #FF9F68;
+    width: 40rem;
+    height: 12rem;
+    box-shadow: .2rem .2rem black;
+
+    position: absolute;
+    top: 29rem;
+    left: 8rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+        aside .card-extra-container .title {
+            margin: 3rem 2rem 0;
+            width: 30rem;
+        }
+
+        aside .card-extra-container .text {
+            margin: 0 0 0 9rem;
+            width: 30rem;
+            text-align: right;
+        }
+
+        aside .card-extra-container .icons {
+            margin: 0 0 3rem 1.7rem;
+        }
+
+footer {
+    position: absolute;
+    width: 100vh;
+    left: 20rem;
+    bottom: .3rem;
+}
+
+        footer .footer-container {
+            text-align: center;
+            color: #FECA28;
+        }
+
+        footer a:link, a:visited {
+            color: #FECA28;
+        }
+
+        footer a:hover {
+            color: #FF9F68;
+        } 
