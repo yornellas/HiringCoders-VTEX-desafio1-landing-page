@@ -5,9 +5,19 @@ form.addEventListener('submit', (e) => {
 
     let name = document.querySelector('#name').value;
     let email = document.querySelector('#email').value;
+    let courses = document.getElementsByName('option');
+    let choice;
+
+    for(let course of courses) {
+        if(course.checked) {
+            choice = course.value;
+        }
+    }
+
     let data = {
         name,
         email,
+        choice
     };
     let convertData = JSON.stringify(data);
 
