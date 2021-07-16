@@ -239,7 +239,7 @@ footer a:hover {
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
     body {
         display: flex;
         flex-direction: column;
@@ -259,6 +259,7 @@ footer a:hover {
     aside {
         display: flex;
         flex-direction: column;
+        width: auto;
     }
 
         aside div.card-extra-container {
@@ -276,14 +277,15 @@ footer a:hover {
 
         aside div.card-extra-container h1.title {
             padding: 0;
-            margin-left: auto;
-            margin-right: auto;
+            margin-left: 1rem;
+            width: auto;
         }
 
         aside div.card-extra-container p.text {
-            margin-right: 2rem;
+            margin-right: 1rem;
             margin-left: auto;
             min-height: auto;
+            width: auto;
         }
 
         aside div.card-extra-container div.icons {
